@@ -19,7 +19,7 @@ void setup() {
   pinMode(buzzerPin, OUTPUT);
   pinMode(buttonPin, INPUT_PULLUP);  // Usando resistor pull-up interno no botão
 
-  Serial.begin(9600);  // Inicializa a comunicação serial para monitorar
+  Serial.begin(9600);  // Inicializa a comunicação serial para monitora
 }
 
 void loop() {
